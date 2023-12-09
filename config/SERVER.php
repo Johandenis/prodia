@@ -1,6 +1,6 @@
 <?php
 
-	const SERVER="localhost";
+	const SERVER="161.132.41.92";
 	const DB="prodia_db";
 	const USER="root";
 	const PASS="denis2002";
