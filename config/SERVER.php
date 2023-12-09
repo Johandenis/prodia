@@ -3,7 +3,7 @@
 	const SERVER="localhost";
 	const DB="prodia_db";
 	const USER="root";
-	const PASS="";
+	const PASS="denis2002";
 
 	const SGBD="mysql:host=".SERVER.";dbname=".DB;
 
