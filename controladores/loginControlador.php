@@ -1,8 +1,8 @@
 <?php
 	if($peticionAjax){
-		require_once "../modelos/loginModelo.php";
+		require_once "prodia/modelos/loginModelo.php";
 	}else{
-		require_once "./modelos/loginModelo.php";
+		require_once "prodia/modelos/loginModelo.php";
 	}
 
 	class loginControlador extends loginModelo{

@@ -2,7 +2,7 @@
 
 	const SERVER="161.132.41.92:3306";
 	const DB="prodia_db";
-	const USER="root";
+	const USER="denis";
 	const PASS="denis2002";
 
 	const SGBD="mysql:host=".SERVER.";dbname=".DB;
