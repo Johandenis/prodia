@@ -9,7 +9,7 @@
 		<i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO USUARIO
 	</h3>
 	<p class="text-justify">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nostrum rerum animi natus beatae ex. Culpa blanditiis tempore amet alias placeat, obcaecati quaerat ullam, sunt est, odio aut veniam ratione.
+	Crea un nuevo usuario con privilegios de administrador. Ingresa la información personal del usuario, incluyendo DNI, nombres, apellidos, teléfono y dirección. Configura también la información de la cuenta, como nombre de usuario, correo electrónico y contraseña. Asigna un nivel de privilegio según las funciones que necesite desempeñar el usuario en el sistema.
 	</p>
 </div>
 
@@ -60,7 +60,7 @@
 					</div>
 					<div class="col-12 col-md-6">
 						<div class="form-group">
-							<label for="usuario_direccion" class="bmd-label-floating">Dirección</label>
+							<label for="usuario_direccion" class="bmd-label-floating">procedencia</label>
 							<input type="text" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ().,#\- ]{1,190}" class="form-control" name="usuario_direccion_reg" id="usuario_direccion" maxlength="190">
 						</div>
 					</div>

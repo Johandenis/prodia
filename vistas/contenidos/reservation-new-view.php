@@ -1,6 +1,6 @@
 <div class="full-box page-header">
     <h3 class="text-left">
-        <i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO PRÉSTAMO
+        <i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO COMUNICADO
     </h3>
     <p class="text-justify">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quod harum vitae, fugit quo soluta. Molestias officiis voluptatum delectus doloribus at tempore, iste optio quam recusandae numquam non inventore dolor.
@@ -10,13 +10,13 @@
 <div class="container-fluid">
     <ul class="full-box list-unstyled page-nav-tabs">
         <li>
-            <a class="active" href="<?php echo SERVERURL; ?>reservation-new/"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO PRÉSTAMO</a>
+            <a class="active" href="<?php echo SERVERURL; ?>reservation-new/"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO COMUNICADO</a>
         </li>
         <li>
-            <a href="<?php echo SERVERURL; ?>reservation-reservation/"><i class="far fa-calendar-alt"></i> &nbsp; RESERVACIONES</a>
+            <a href="<?php echo SERVERURL; ?>reservation-reservation/"><i class="far fa-calendar-alt"></i> &nbsp; COMUNICADO</a>
         </li>
         <li>
-            <a href="<?php echo SERVERURL; ?>eservation-pending/"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; PRÉSTAMOS</a>
+            <a href="<?php echo SERVERURL; ?>eservation-pending/"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; COMUNICADOS</a>
         </li>
         <li>
             <a href="<?php echo SERVERURL; ?>reservation-list/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; FINALIZADOS</a>
@@ -30,16 +30,16 @@
 <div class="container-fluid">
 	<div class="container-fluid form-neon">
         <div class="container-fluid">
-            <p class="text-center roboto-medium">AGREGAR CLIENTE O ITEMS</p>
+            <p class="text-center roboto-medium">AGREGAR ESTUDIANTE O ARCHIVOS</p>
             <p class="text-center">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCliente"><i class="fas fa-user-plus"></i> &nbsp; Agregar cliente</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalItem"><i class="fas fa-box-open"></i> &nbsp; Agregar item</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCliente"><i class="fas fa-user-plus"></i> &nbsp; Agregar Estudiante</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalItem"><i class="fas fa-box-open"></i> &nbsp; Agregar Archivos</button>
             </p>
             <div>
-                <span class="roboto-medium">CLIENTE:</span> 
-                <span class="text-danger">&nbsp; <i class="fas fa-exclamation-triangle"></i> Seleccione un cliente</span>
+                <span class="roboto-medium">ESTUDIANTE:</span> 
+                <span class="text-danger">&nbsp; <i class="fas fa-exclamation-triangle"></i> Seleccione un Estudiante</span>
       			<form action="" style="display: inline-block !important;">
-                	Carlos Alfaro
+                	JOHAN DENIS
                     <button type="button" class="btn btn-danger"><i class="fas fa-user-times"></i></button>
                 </form>
             </div>
@@ -50,15 +50,13 @@
                             <th>ITEM</th>
                             <th>CANTIDAD</th>
                             <th>TIEMPO</th>
-                            <th>COSTO</th>
-                            <th>SUBTOTAL</th>
                             <th>DETALLE</th>
                             <th>ELIMINAR</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="text-center" >
-                            <td>Silla plastica</td>
+                            <td>DUCUMENTO</td>
                             <td>7</td>
                             <td>Hora</td>
                             <td>$5.00</td>
@@ -77,7 +75,7 @@
                             </td>
                         </tr>
                         <tr class="text-center" >
-                            <td>Silla metalica</td>
+                            <td>DOCUMENTO</td>
                             <td>9</td>
                             <td>Día</td>
                             <td>$5.00</td>
@@ -96,7 +94,7 @@
                             </td>
                         </tr>
                         <tr class="text-center" >
-                            <td>Mesa plastica</td>
+                            <td>DOCUMENTO</td>
                             <td>5</td>
                             <td>Evento</td>
                             <td>$10.00</td>
@@ -118,7 +116,6 @@
                             <td><strong>TOTAL</strong></td>
                             <td><strong>21 items</strong></td>
                             <td colspan="2"></td>
-                            <td><strong>$130.00</strong></td>
                             <td colspan="2"></td>
                         </tr>
                     </tbody>
@@ -127,18 +124,18 @@
         </div>
 		<form action="" autocomplete="off">
             <fieldset>
-                <legend><i class="far fa-clock"></i> &nbsp; Fecha y hora de préstamo</legend>
+                <legend><i class="far fa-clock"></i> &nbsp; Fecha y hora de COMUNICADO</legend>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="prestamo_fecha_inicio">Fecha de préstamo</label>
+                                <label for="prestamo_fecha_inicio">Fecha de COMUNICADO</label>
                                 <input type="date" class="form-control" name="prestamo_fecha_inicio_reg" id="prestamo_fecha_inicio">
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="form-group">
-                                <label for="prestamo_hora_inicio">Hora de préstamo</label>
+                                <label for="prestamo_hora_inicio">Hora de COMUNICADO</label>
                                 <input type="time" class="form-control" name="prestamo_hora_inicio_reg" id="prestamo_hora_inicio">
                             </div>
                         </div>

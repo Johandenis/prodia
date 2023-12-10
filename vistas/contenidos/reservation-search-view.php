@@ -1,22 +1,22 @@
 <div class="full-box page-header">
     <h3 class="text-left">
-        <i class="fas fa-search-dollar fa-fw"></i> &nbsp; BUSCAR PRÉSTAMOS POR FECHA
+        <i class="fas fa-search-dollar fa-fw"></i> &nbsp; BUSCAR COMUNICADOS POR FECHA
     </h3>
     <p class="text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia fugiat est ducimus inventore, repellendus deserunt cum aliquam dignissimos, consequuntur molestiae perferendis quae, impedit doloribus harum necessitatibus magnam voluptatem voluptatum alias!
+	Esta sección muestra un listado de archivos disponibles en el sistema. Puedes visualizar detalles importantes como el código del archivo, su nombre, la cantidad en stock y acceder a información detallada de cada uno. Desde aquí tienes la posibilidad de actualizar los detalles de los archivos o eliminarlos si es necesario. Utiliza la barra de navegación al final para desplazarte entre las páginas de la lista de archivos.
     </p>
 </div>
 
 <div class="container-fluid">
     <ul class="full-box list-unstyled page-nav-tabs">
         <li>
-            <a href="<?php echo SERVERURL; ?>reservation-new/"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO PRÉSTAMO</a>
+            <a href="<?php echo SERVERURL; ?>reservation-new/"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO COMUNICADOS</a>
         </li>
         <li>
-            <a href="<?php echo SERVERURL; ?>reservation-reservation/"><i class="far fa-calendar-alt"></i> &nbsp; RESERVACIONES</a>
+            <a href="<?php echo SERVERURL; ?>reservation-reservation/"><i class="far fa-calendar-alt"></i> &nbsp; COMUNICADOS</a>
         </li>
         <li>
-            <a href="<?php echo SERVERURL; ?>reservation-pending/"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; PRÉSTAMOS</a>
+            <a href="<?php echo SERVERURL; ?>reservation-pending/"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; COMUNICADOS</a>
         </li>
         <li>
             <a href="<?php echo SERVERURL; ?>reservation-list/"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; FINALIZADOS</a>
@@ -81,8 +81,8 @@
 			<thead>
 				<tr class="text-center roboto-medium">
 					<th>#</th>
-					<th>CLIENTE</th>
-					<th>FECHA DE PRÉSTAMO</th>
+					<th>ESTUDIANTE</th>
+					<th>FECHA DE COMUNICADO/th>
 					<th>FECHA DE ENTREGA</th>
 					<th>TIPO</th>
 					<th>ESTADO</th>
@@ -97,7 +97,7 @@
 					<td>NOMBRE CLIENTE</td>
 					<td>2017/10/8</td>
 					<td>2017/10/10</td>
-					<td><span class="badge badge-warning">Reservacion</span></td>
+					<td><span class="badge badge-warning">Comunicado</span></td>
 					<td><span class="badge badge-danger">Pendiente</span></td>
 					<td>
 						<a href="#" class="btn btn-info">
@@ -119,7 +119,7 @@
 				</tr>
 				<tr class="text-center" >
 					<td>2</td>
-					<td>NOMBRE CLIENTE</td>
+					<td>NOMBRE ESTUDIANTE</td>
 					<td>2017/10/8</td>
 					<td>2017/10/10</td>
 					<td><span class="badge badge-dark">Finalizado</span></td>
@@ -144,10 +144,10 @@
 				</tr>
 				<tr class="text-center" >
 					<td>3</td>
-					<td>NOMBRE CLIENTE</td>
+					<td>NOMBRE ESTUDIANTE</td>
 					<td>2017/10/8</td>
 					<td>2017/10/10</td>
-					<td><span class="badge badge-info">Prestamo</span></td>
+					<td><span class="badge badge-info">Comunciado</span></td>
 					<td><span class="badge badge-danger">Pendiente</span></td>
 					<td>
 						<a href="#" class="btn btn-info">
@@ -169,7 +169,7 @@
 				</tr>
 				<tr class="text-center" >
 					<td>4</td>
-					<td>NOMBRE CLIENTE</td>
+					<td>NOMBRE ESTUDIANTE</td>
 					<td>2017/10/8</td>
 					<td>2017/10/10</td>
 					<td><span class="badge badge-dark">Finalizado</span></td>

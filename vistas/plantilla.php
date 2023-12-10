@@ -12,7 +12,7 @@
     <?php
         $peticionAjax=false;
     
-        require_once "prodia/controladores/vistasControlador.php"; 
+        require_once "./controladores/vistasControlador.php"; 
         $IV = new vistasControlador();
 
         $vistas=$IV->obtener_vistas_controlador();
@@ -22,7 +22,7 @@
         }else{
             session_start(['name'=>'SPM']);
 
-            require_once "prodia/controladores/loginControlador.php";
+            require_once "./controladores/loginControlador.php";
             $lc = new loginControlador();
             
 			if(!isset($_SESSION['token_spm']) || !isset($_SESSION['usuario_spm']) || !isset($_SESSION['privilegio_spm']) || !isset($_SESSION['id_spm'])){
@@ -34,11 +34,11 @@
 	<!-- Main container -->
 	<main class="full-box main-container">
 		<!-- Nav lateral -->
-         <?php include "prodia/vistas/inc/NavLateral.php"; ?>
+         <?php include "./vistas/inc/NavLateral.php"; ?>
 
 		<!-- Page content -->
         <?php 
-            include "prodia/vistas/inc/NavBar.php"; 
+            include "./vistas/inc/NavBar.php"; 
             
             include $vistas;
             ?>
@@ -48,7 +48,7 @@
 	
     <?php 
         }
-    include "prodia/vistas/inc/Script.php"; ?>
+    include "./vistas/inc/Script.php"; ?>
 
 
 </body>

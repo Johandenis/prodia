@@ -1,9 +1,9 @@
 <?php
 
-	const SERVER="161.132.41.92:3306";
+	const SERVER="localhost";
 	const DB="prodia_db";
-	const USER="denis";
-	const PASS="denis2002";
+	const USER="root";
+	const PASS="";
 
 	const SGBD="mysql:host=".SERVER.";dbname=".DB;
 

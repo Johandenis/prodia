@@ -4,7 +4,8 @@
 		<i class="fab fa-dashcube fa-fw"></i> &nbsp; DASHBOARD
 	</h3>
 	<p class="text-justify">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nostrum rerum animi natus beatae ex. Culpa blanditiis tempore amet alias placeat, obcaecati quaerat ullam, sunt est, odio aut veniam ratione.
+	Una herramienta integral para la gestión eficiente de becarios en la Asociación Prodia. Accede y controla de manera sencilla y efectiva toda la información relacionada con los becarios, proyectos, comunicados y usuarios. Optimiza la administración y seguimiento de los programas de becas, manteniendo un registro actualizado y detallado para una toma de decisiones informada.
+
 	</p>
 </div>
 
@@ -14,15 +15,15 @@
 		<div class="tile-tittle">BECARIOS</div>
 		<div class="tile-icon">
 			<i class="fas fa-users fa-fw"></i>
-			<p>5 Registrados</p>
+			<p> Registrados</p>
 		</div>
 	</a>
 	
 	<a href="<?php echo SERVERURL; ?>item-list" class="tile">
-		<div class="tile-tittle">Items</div>
+		<div class="tile-tittle">Archivos</div>
 		<div class="tile-icon">
 			<i class="fas fa-pallet fa-fw"></i>
-			<p>9 Registrados</p>
+			<p> Registrados</p>
 		</div>
 	</a>
 
@@ -30,7 +31,7 @@
 		<div class="tile-tittle">COMUNICADOS</div>
 		<div class="tile-icon">
 			<i class="far fa-calendar-alt fa-fw"></i>
-			<p>30 Registradas</p>
+			<p> Registradas</p>
 		</div>
 	</a>
 
@@ -38,7 +39,7 @@
 		<div class="tile-tittle">PROYECTOS</div>
 		<div class="tile-icon">
 			<i class="fas fa-hand-holding-usd fa-fw"></i>
-			<p>200 Registrados</p>
+			<p> Registrados</p>
 		</div>
 	</a>
 
@@ -46,7 +47,7 @@
 		<div class="tile-tittle">PROYECTOS FINALIZADOS</div>
 		<div class="tile-icon">
 			<i class="fas fa-clipboard-list fa-fw"></i>
-			<p>700 Registrados</p>
+			<p> Registrados</p>
 		</div>
 	</a>
 	<?php if($_SESSION['privilegio_spm']==1){?>
@@ -54,16 +55,9 @@
 		<div class="tile-tittle">Usuarios</div>
 		<div class="tile-icon">
 			<i class="fas fa-user-secret fa-fw"></i>
-			<p>50 Registrados</p>
+			<p> Registrados</p>
 		</div>
 	</a>
 	<?php } ?>
 
-	<a href="<?php echo SERVERURL; ?>company/" class="tile">
-		<div class="tile-tittle">ASOCIACION</div>
-		<div class="tile-icon">
-			<i class="fas fa-store-alt fa-fw"></i>
-			<p>1 Registrada</p>
-		</div>
-	</a>
 </div>

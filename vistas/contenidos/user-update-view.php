@@ -1,11 +1,4 @@
-<?php
-	if($lc->encryption($_SESSION['id_spm'])!=$pagina[1]){
-		if($_SESSION['privilegio_spm']!=1){
-			echo $lc->forzar_cierre_sesion_controlador();
-			exit();
-		}
-	}
-?>
+
 <div class="full-box page-header">
 	<h3 class="text-left">
 		<i class="fas fa-sync-alt fa-fw"></i> &nbsp; ACTUALIZAR USUARIO

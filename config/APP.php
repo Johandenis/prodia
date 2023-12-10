@@ -1,5 +1,5 @@
 <?php
-	const SERVERURL="http://161.132.41.92/";
+	const SERVERURL="http://localhost/prodia/";
 
 	const COMPANY="SISTEMAS PRODIA";
 

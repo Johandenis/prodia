@@ -1,10 +1,9 @@
 <div class="full-box page-header">
     <h3 class="text-left">
-        <i class="fas fa-building fa-fw"></i> &nbsp; INFORMACÓN DE LA ASOCIACION
+        <i class="fas fa-building fa-fw"></i> &nbsp; INFORMACIÓN DE LA ASOCIACION
     </h3>
     <p class="text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nam eaque nostrum, voluptates, rerum quo. Consequuntur ut, maxime? Quibusdam ipsum maxime non veritatis dignissimos qui reiciendis, amet eum nihil! Et!
-    </p>
+    Esta ventana proporciona un acceso rápido y práctico para visualizar y actualizar la información perteneciente a la asociación. Está diseñada para ofrecer una interfaz fácil de usar, permitiéndote modificar los datos relevantes de la asociación de manera eficiente.    </p>
 </div>
 
 <div class="container-fluid">
@@ -54,12 +53,12 @@
 <div class="container-fluid">
     <form action="" class="form-neon" autocomplete="off">
         <fieldset>
-            <legend><i class="far fa-building"></i> &nbsp;Actualizar Información de la empresa</legend>
+            <legend><i class="far fa-building"></i> &nbsp;Actualizar Información de la asociacion</legend>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="form-group">
-                            <label for="empresa_nombre" class="bmd-label-floating">Nombre de la empresa</label>
+                            <label for="empresa_nombre" class="bmd-label-floating">Asociacion Prodia</label>
                             <input type="text" pattern="[a-zA-z0-9áéíóúÁÉÍÓÚñÑ. ]{1,70}" class="form-control" name="empresa_nombre_up" id="empresa_nombre" maxlength="70">
                         </div>
                     </div>

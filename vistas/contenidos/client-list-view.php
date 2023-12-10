@@ -3,7 +3,7 @@
 		<i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE BECARIOS
 	</h3>
 	<p class="text-justify">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nostrum rerum animi natus beatae ex. Culpa blanditiis tempore amet alias placeat, obcaecati quaerat ullam, sunt est, odio aut veniam ratione.
+	Podremos visualizar la lista de becarios ademas de eso podemos Registrar la información básica de cada becario, como el DNI, nombre, apellido, teléfono y dirección, facilitando así la gestión de la lista de becarios.
 	</p>
 </div>
 
@@ -88,8 +88,8 @@
 				<tr class="text-center" >
 					<td>3</td>
 					<td>012342567</td>
-					<td>NOMBRE DEL CLIENTE</td>
-					<td>APELLIDO DEL CLIENTE</td>
+					<td>NOMBRE DEL ESTUDIANTE</td>
+					<td>APELLIDO DEL ESTUDIANTE</td>
 					<td>72349874</td>
 					<td>
 						<button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Nombre del cliente" data-content="Direccion completa del cliente">
@@ -112,8 +112,8 @@
 				<tr class="text-center" >
 					<td>4</td>
 					<td>012342567</td>
-					<td>NOMBRE DEL CLIENTE</td>
-					<td>APELLIDO DEL CLIENTE</td>
+					<td>NOMBRE DEL ESTUDIANTE</td>
+					<td>APELLIDO DEL ESTUDIANTE</td>
 					<td>72349874</td>
 					<td>
 						<button type="button" class="btn btn-info" data-toggle="popover" data-trigger="hover" title="Nombre del cliente" data-content="Direccion completa del cliente">

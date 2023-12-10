@@ -1,9 +1,9 @@
 <?php
 
 	if($peticionAjax){
-		require_once "prodia/modelos/usuarioModelo.php";
+		require_once "../modelos/usuarioModelo.php";
 	}else{
-		require_once "prodia/modelos/usuarioModelo.php";
+		require_once "./modelos/usuarioModelo.php";
 	}
 
 	class usuarioControlador extends usuarioModelo{
